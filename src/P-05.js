@@ -11,3 +11,6 @@ function adminLogin(user) {
 	if(user == "DEV") return true;
 	return false;
 }
+const sortFruits = (fruits)=>fruits.sort();
+const getElementInTheMiddle = (list) => list[list.length / 2];
+const adminLogin = (user) => user === "ADMIN" || user ==="DEV";
