@@ -1,0 +1,7 @@
+Arrow functions es una expresión de función flecha es una alternativa compacta a una expresión de 
+función tradicional, pero es limitada y no se puede utilizar en todas las situaciones.
+ Diferencias y limitaciones: No tiene sus propios enlaces a this o super y no se debe usar 
+ como métodos. No tiene argumentos o palabras clave new
+
+ Una función de callback es una función que se pasa a otra función como un argumento, que luego
+  se invoca dentro de la función externa para completar algún tipo de rutina o acción

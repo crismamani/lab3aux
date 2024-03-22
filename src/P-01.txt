@@ -1,0 +1,14 @@
+Es una funcion que tiene git para pedirle que ignore archivos concretos y asi meterlos por accidente en nuestro repositorio
+por ejemplo cuando hago un 
+git add. 
+git status
+ese
+new file  secreto.txt  se a intentado incorporar 
+para evitar que no se incorpore tenemos que usar el comando 
+git rm --cached para dar marcha atras y de esa manera no meter archivos secretos y con eso el archivos
+no se mete en el comit
+
+el package.json es un archivo generado automáticamente cuando se instalan paquetes o dependencias en el proyecto. Su finalidad es mantener un historial de los 
+ paquetes instalados y optimizar la forma en que se generan las dependencias del proyecto y los contenidos de la carpeta node_modules/ .
+
+npm init va preguntando cual es el nombre del package
