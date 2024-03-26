@@ -1,14 +1,40 @@
+/*{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "description": "Descripción del proyecto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+} */
+
+
+/*{
+  "name": "mi-aplicacion-web",
+  "version": "1.0.0",
+  "description": "Una aplicación web increíble",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+} */
+
+//name" especifica el nombre del proyecto."version" define la versión actual del proyecto."description" proporciona una descripción breve del proyecto."main" especifica el archivo principal de la aplicación."scripts" contiene comandos que pueden ser ejecutados con npm run <nombre-del-script>. Aquí, "start" inicia la aplicación, y "test" es un script de ejemplo para ejecutar pruebas (aunque en este caso simplemente imprime un mensaje de error)."dependencies" lista las dependencias del proyecto que son necesarias para que la aplicación funcione en producción.
+
+
+
 Es una funcion que tiene git para pedirle que ignore archivos concretos y asi meterlos por accidente en nuestro repositorio
 por ejemplo cuando hago un 
 git add. 
-git status
-ese
-new file  secreto.txt  se a intentado incorporar 
-para evitar que no se incorpore tenemos que usar el comando 
-git rm --cached para dar marcha atras y de esa manera no meter archivos secretos y con eso el archivos
-no se mete en el comit
-
-el package.json es un archivo generado automáticamente cuando se instalan paquetes o dependencias en el proyecto. Su finalidad es mantener un historial de los 
- paquetes instalados y optimizar la forma en que se generan las dependencias del proyecto y los contenidos de la carpeta node_modules/ .
-
-npm init va preguntando cual es el nombre del package
+git status.
